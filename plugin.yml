@@ -1,0 +1,6 @@
+name: BetaTester
+version: "0.13.1"
+main: PeratX\BetaTester\BetaTester
+load: STARTUP
+author: GenisysPro
+api: [3.0.0-APLHA4]
