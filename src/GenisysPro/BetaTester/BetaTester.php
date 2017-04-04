@@ -10,9 +10,9 @@ use pocketmine\plugin\PluginBase;
 class BetaTester extends PluginBase{
 
 	const CURRENT_PROTOCOL = 105;
-	const TARGET_PROTOCOL = 103;
+	const TARGET_PROTOCOL = 102;
 
-	const CURRENT_MINECRAFT_VERSION_NETWORK = "1.0.x";
+	const CURRENT_MINECRAFT_VERSION_NETWORK = "1.0";
 
 	public function onEnable(){
 		$this->saveDefaultConfig();
